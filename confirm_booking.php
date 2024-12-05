@@ -45,13 +45,6 @@ if (!isset($_SESSION['user_type']) && !isset($_SESSION['user_email'])) {
 
 <div class="appointment-box">
     <h4>Confirm Appointment</h4>
-    <div class="mb-3">
-        <p><strong>Lawyer Name:</strong> John Doe</p>
-        <p><strong>Field of Expertise:</strong> Criminal Lawyer</p>
-        <p><strong>Experience:</strong> 10 Years</p>
-        <p><strong>Chamber Address:</strong> 123 Legal Lane, Dhaka</p>
-        <p><strong>Phone:</strong> +880123456789</p>
-    </div>
     <form method = "POST">
         <div class="mb-3">
             <label for="appointmentDate" class="form-label"><strong>Appointment Date:</strong></label>
